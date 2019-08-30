@@ -29,7 +29,7 @@
 
 						<?php foreach($navigation as $navigationItem): ?>
 							<li class="nav-item">
-								<a class="nav-link" href="<?php echo $navigationItem["url"]; ?>">
+								<a class="nav-link" href="<?php echo base_url($navigationItem["url"]); ?>">
 									<i class="fas fa-<?php echo $navigationItem["faIcon"]; ?>"></i>
 									<?php echo $navigationItem["name"]; ?>
 								</a>
