@@ -1,0 +1,74 @@
+.myChart{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+
+}
+body{
+	margin: 30px;
+}
+#details{
+	margin-top: 50px;;
+}
+td{
+	font-size: 15px;
+}
+#head{
+	border-top: solid gray 2px;
+	border-bottom: solid gray 2px;
+}
+#Achat{
+	font-size: 15px;
+}
+#buttons{
+	margin-top: 30px;
+	margin-left: 120px;
+}
+#ISIN{
+	margin-top: 50px;
+}
+.main-row th{
+	color: white;
+}
+.btn{
+	color: white;
+	background-color: #002166;
+}
+#tabItemActualites {
+	margin-top: 25px;
+}
+#tabItemActualites tr{
+	border: solid gray 2px;
+}
+#tabItemActualites h4{
+	margin-left: 10px;
+}
+#tabItemActualites h5{
+	margin-left: 50px;
+	font-style: italic;
+	margin-top: -20px;
+
+}
+#tabItemTransactions thead{
+	background-color: #002166;
+}
+#tabItemTransactions {
+	margin: 25px;
+}
+#tabItemTransactions th{
+	color: white;
+}
+.red-percentage {
+	color: red;
+}
+
+.green-percentage {
+	color: green;
+}
+#addButton{
+	background-color: white;
+}
+#returnButton{
+	background-color: #002166;
+	color: white;
+}

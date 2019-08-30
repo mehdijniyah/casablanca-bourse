@@ -1,0 +1,20 @@
+.headHausse th{
+	color: #002166;
+}
+#sidebar{
+	margin-left: -140px;
+	margin-top: 60px;
+
+}
+#stats-hausses a{
+	color: #002166;
+}
+#stats-baisses a{
+	color: #002166;
+}
+#stats-volumes a{
+	color: #002166;
+}
+#mainMarche{
+	margin-top: 40px;
+}

@@ -1,0 +1,28 @@
+.tab-pane {
+	margin-top: 25px;
+}
+.tab-pane tr{
+	border: solid gray 2px;
+}
+.tab-pane h4{
+	margin-left: 10px;
+}
+.tab-pane a{
+color: #002166
+}
+.tab-pane h5{
+	margin-left: 50px;
+	font-style: italic;
+	margin-top: -20px;
+}
+#colNewsMarche td{
+	width: 100%;
+}
+ #sidebar{
+	 margin-left: -140px;
+	 margin-top: 60px;
+ }
+#home img{
+	width: 100%;
+	max-height: 100%;
+}
