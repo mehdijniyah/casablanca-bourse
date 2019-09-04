@@ -14,7 +14,9 @@ class About extends CI_Controller
 		// Css
 		$data["css"] = array(
 			base_url("assets/css/about.css"),
-			"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+			base_url("assets/css/sideBar.css"),
+ 			"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
 		);
 
 		$data["js"] = array(

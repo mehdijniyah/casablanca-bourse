@@ -18,11 +18,12 @@ color: #002166
 #colNewsMarche td{
 	width: 100%;
 }
- #sidebar{
-	 margin-left: -140px;
+#sidebar{
+	 margin-left: -200px;
 	 margin-top: 60px;
  }
 #home img{
 	width: 100%;
 	max-height: 100%;
 }
+

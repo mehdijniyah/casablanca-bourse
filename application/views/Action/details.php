@@ -12,7 +12,7 @@
 <div id="app" class="container">
     <div class="row">
 		<div >
-			<button type="button" class="btn btn-default" id="returnButton" onclick="location.href='/bourse/index.php/ListeActions'">
+			<button type="button" class="btn btn-default" id="returnButton" onclick="location.href='/casablanca-bourse/ListeActions'">
 				<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
 			</button>
 		</div>

@@ -2,11 +2,14 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="UTF-8">
-	<title> Market </title>
+	<title> Investir </title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/investir.css');?>"/>
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/actions.css');?>"/>
+	<?php
+	// Css
+	foreach ($css as $cssFile) {
+		echo '<link rel="stylesheet" href="' . $cssFile . '" />';
+	}
+	?>
 
 </head>
 <body>
@@ -15,29 +18,14 @@
 		<div class="logo"><img src="http://www.casablanca-bourse.com/BourseWeb/UserFiles/Image//LOGO-B-VF2.gif"
 							   alt="Logo"
 							   height="50px" width="50px"></div>
-		<a class="navbar-brand col-lg-12 mr-0" id="titleId" href="/bourse/ListeActions">La bourse de Casablanca</a>
+		<a class="navbar-brand col-lg-12 mr-0" id="titleId" href="/casablanca-bourse/ListeActions">La bourse de Casablanca</a>
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<nav class="col-md-2 d-none d-md-block sidebar" id="sidebar">
-				<div class="sidebar-sticky">
-					<ul class="nav flex-column">
-						<?php
-						get_instance()->config->load("side_bar_navigation");
-						$navigation = get_instance()->config->item("navigation");
-						?>
-
-						<?php foreach($navigation as $navigationItem): ?>
-							<li class="nav-item">
-								<a class="nav-link" href="<?php echo base_url($navigationItem["url"]); ?>">
-									<i class="fas fa-<?php echo $navigationItem["faIcon"]; ?>"></i>
-									<?php echo $navigationItem["name"]; ?>
-								</a>
-							</li>
-						<?php endforeach; ?>
-					</ul>
-				</div>
-			</nav>
+			<?php
+			// Side bar
+			get_instance()->load->view("templates/side_bar");
+			?>
 			<main role="main" class="col-md-12 ml-sm-auto col-lg-10 px-4">
 				<h2 style="color: #002166" id="headAct"> Investir en Bourse </h2>
 				<br />

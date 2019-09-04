@@ -15,6 +15,7 @@ class Action extends CI_Controller
 		// Css
 		$data["css"] = array(
 			base_url("assets/css/action_details.css"),
+			base_url("assets/css/sideBar.css"),
 			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css ",
 			"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		);

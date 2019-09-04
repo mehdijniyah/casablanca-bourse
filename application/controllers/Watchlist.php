@@ -15,13 +15,13 @@ class Watchlist extends CI_Controller
 		// Css
 		$data["css"] = array(
 			base_url("assets/css/actions.css"),
-			base_url("assets/css/actions_details.css"),
+			base_url("assets/css/watchlist.css"),
+			base_url("assets/css/sideBar.css"),
 			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
 		);
 
 		$data["js"] = array(
 			"https://code.jquery.com/jquery-3.3.1.slim.min.js",
-			"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js",
 			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
 			"https://cdn.jsdelivr.net/npm/vue/dist/vue.js",
 			"https://kit.fontawesome.com/2b28bccfd5.js",

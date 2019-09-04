@@ -1,5 +1,5 @@
 #sidebar{
-	margin-left: -130px;
+	margin-left: -200px;
 	margin-top: 60px;
 
 }
@@ -9,4 +9,7 @@
 #Intro {
 	margin-top: 10px;
 	font-size: 18px;
+}
+#titleId{
+	color: #002166;
 }

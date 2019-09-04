@@ -1,11 +1,6 @@
 .headHausse th{
 	color: #002166;
 }
-#sidebar{
-	margin-left: -140px;
-	margin-top: 60px;
-
-}
 #stats-hausses a{
 	color: #002166;
 }
@@ -17,4 +12,11 @@
 }
 #mainMarche{
 	margin-top: 40px;
+}
+#titleId {
+	color: #002166;
+}
+#sidebar{
+	margin-left: -200px;
+	margin-top: 60px;
 }
